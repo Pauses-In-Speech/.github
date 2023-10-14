@@ -1,4 +1,9 @@
 # Pauses in Speech
+This App will analyze pauses in speech and create automatic subtitles for uploaded audio. It is intended to be used for audiobooks.
+You can also upload a manually created text transcript which the app uses to correct its automatically generated subtitles. Via audio to text alignment, it displays only the part of the transcript, which is currently being said.
+
+You can access the interactive backend API documentation via http://localhost:8000/docs
+
 
 # Demo
 
@@ -26,4 +31,8 @@ Navigate to /pis_webapp and run:
 
 `docker run -it --rm -p 3000:3000 -v ${PWD}/src/:/app/src --name pis-web pis_webapp:latest`
 
-Afterwards you can connect to localhost:3000 and run use the app!
+Afterwards you can connect to http://localhost:3000 and run use the app!
+
+# License
+
+Both repositories are licensed with the MIT license
