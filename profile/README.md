@@ -12,6 +12,10 @@ You can access the interactive backend API documentation via http://localhost:80
 Click on this picture to open the [Youtube](https://www.youtube.com/watch?v=E5KyIt7sALw) demo video. 
 
 # How to run
+Clone both repositories into a directory you want to use:
+
+`git clone git@github.com:Pauses-In-Speech/transcribing_service.git`
+`git clone git@github.com:Pauses-In-Speech/pis_webapp.git`
 
 ## Backend transcribing service
 Navigate to /transcribing_service and run:
