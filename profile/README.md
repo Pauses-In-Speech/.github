@@ -15,7 +15,10 @@ Click on this picture to open the [Youtube](https://www.youtube.com/watch?v=E5Ky
 Clone both repositories into a directory you want to use:
 
 `git clone git@github.com:Pauses-In-Speech/transcribing_service.git`
+
 `git clone git@github.com:Pauses-In-Speech/pis_webapp.git`
+
+Running the backend and frontend requires [docker](https://docs.docker.com/engine/install/). To use GPU acceleration inside docker [install the Nvidia Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
 
 ## Backend transcribing service
 Navigate to /transcribing_service and run:
